@@ -8,7 +8,6 @@ body {
 
 .navbar {
   border-bottom: 3px #207920 solid;
-  opacity: 0.9;
 }
 
 .navbar .nav-link {
@@ -24,6 +23,10 @@ body {
 .col {
   padding-left: 0;
   padding-right: 0;
+}
+
+.p {
+  padding-top: 35px;
 }
 
 .image-1 {
@@ -137,5 +140,9 @@ body {
 
   #home-icons {
     padding-top: 3rem;
+  }
+
+  .margin {
+    margin-bottom: -2rem;
   }
 }

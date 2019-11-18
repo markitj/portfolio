@@ -145,7 +145,8 @@
     <!-- PROJECTS -->
 
     <!-- PAGE HEADER -->
-    <header id="projects-home" class="page-header">
+    <div id="projects-home" class="p"></div>
+    <div class="page-header">
       <div class="container">
         <div class="row">
           <div class="col-md-6 m-auto text-center">
@@ -156,10 +157,10 @@
           </div>
         </div>
       </div>
-    </header>
+    </div>
 
     <!-- PROJECTS SECTION -->
-    <section id="projects" class="py-5">
+    <section id="projects" class="py-3">
       <div class="container">
         <div class="row">
           <div class="col-md-4 pb-4">
@@ -227,7 +228,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 margin">
             <div class="card text-center">
               <div class="card-header bg-dark text-white">
                 <h3>Password Generator</h3>
@@ -267,13 +268,14 @@
     <!-- CONTACT -->
 
     <!-- PAGE HEADER -->
-    <header id="contact-home" class="page-header">
+    <div id="contact-home" class="p"></div>
+    <div class="page-header">
       <div class="container">
         <div class="col-md-6 text-center m-auto pt-4">
           <h1>Contact Me</h1>
         </div>
       </div>
-    </header>
+    </div>
 
     <!-- CONTACT SECTION -->
     <section id="contact" class="py-3">
@@ -391,13 +393,15 @@
 
           const hash = this.hash;
 
+          const TopOffset = 8;
+
           $("html, body").animate(
             {
-              scrollTop: $(hash).offset().top
+              scrollTop: $(hash).offset().top - TopOffset
             },
             900,
             function() {
-              window.location.hash = hash;
+              window.location.hash = hash - TopOffset;
             }
           );
         }
