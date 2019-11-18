@@ -44,11 +44,12 @@ body {
 
 .box {
   display: flex;
+  padding-bottom: 0.8rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #35424a;
-  /* padding: 0px 15px; */
+
   max-width: 250px;
 }
 
