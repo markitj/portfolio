@@ -73,58 +73,63 @@
                   Or you can just fill out this form to contact me
                 </h3>
                 <hr />
+                <form action="POST" data-netlify="true">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          name="name"
+                          class="form-control"
+                          placeholder="Name"
+                        />
+                      </div>
+                    </div>
 
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Name"
-                      />
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          name="email"
+                          class="form-control"
+                          placeholder="Email"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          name="phone"
+                          class="form-control"
+                          placeholder="Phone Number"
+                        />
+                      </div>
                     </div>
                   </div>
-
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        class="form-control"
-                        placeholder="Email"
-                      />
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <textarea
+                          cols="30"
+                          rows="10"
+                          name="message"
+                          class="form-control"
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input
+                          type="submit"
+                          value="Submit"
+                          class="btn btn-outline-danger btn-block"
+                        />
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Phone Number"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <textarea
-                        cols="30"
-                        rows="10"
-                        class="form-control"
-                        placeholder="Message"
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input
-                        type="submit"
-                        value="Submit"
-                        class="btn btn-outline-danger btn-block"
-                      />
-                    </div>
-                  </div>
-                </div>
+                </form>
               </div>
             </div>
           </div>
