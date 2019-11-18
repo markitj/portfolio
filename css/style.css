@@ -23,7 +23,7 @@ body {
   height: 450px;
 }
 
-.carousel-image-1 {
+.image-1 {
   background: url("../img/image1.jpg");
   background-size: cover;
 }
@@ -58,6 +58,10 @@ body {
 
 .box img {
   width: 90px;
+}
+
+.row {
+  justify-content: center;
 }
 
 .dark-overlay {
