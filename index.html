@@ -101,25 +101,23 @@
 
     <!-- Home heading section -->
     <section id="home-heading" class="p-5 ">
-      <div class="dark-overlay ">
-        <div class="row ">
-          <div class="col ">
-            <div
-              class="container
+      <div class="row ">
+        <div class="col ">
+          <div
+            class="container
              "
-            >
-              <h1>Let's Cooperate</h1>
-            </div>
+          >
+            <h1>Let's Cooperate</h1>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Info section -->
-    <section id="info" class="py-3">
+    <section id="info">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 align-self-center">
+          <div class="col-md-6 align-self-center pt-4">
             <h3>Resume</h3>
             <p>
               If you are interested, here you can download my resume.
@@ -131,7 +129,7 @@
               >Download</a
             >
           </div>
-          <div class=" pb-sm-3 col-md-6 col-sm-12">
+          <div class="pt-4 col-md-6 col-sm-12">
             <img
               src="img/laptop1.png"
               alt=""
@@ -160,7 +158,7 @@
     </div>
 
     <!-- PROJECTS SECTION -->
-    <section id="projects" class="py-3">
+    <section id="projects">
       <div class="container">
         <div class="row">
           <div class="col-md-4 pb-4">
@@ -366,7 +364,7 @@
 
     <!-- FOOTER -->
     <footer class="footer">
-      <p>Copyright &copy; <span id="year"></span> Marko Sekulic</p>
+      <p>Copyright &copy; 2019 Marko Sekulic</p>
     </footer>
 
     <script
@@ -381,9 +379,6 @@
     ></script>
 
     <script>
-      // Get the current year for the copyright
-      $("#year").text(new Date().getFullYear());
-
       // Smooth scrolling
 
       $("#main-nav a").on("click", function(e) {
